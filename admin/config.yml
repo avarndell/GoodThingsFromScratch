@@ -77,3 +77,27 @@ collections: # A list of collections the CMS should be able to edit
               widget: "string",
               required: false,
             }
+      - label: "Inspiration Page"
+        name: "infirpation"
+        file: "inspiration.md"
+        fields:
+          - {
+              label: "Title",
+              name: "title",
+              widget: "hidden",
+              default: "about",
+            }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "about",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - {
+              label: "PermalLink",
+              name: "permalink",
+              widget: "string",
+              required: false,
+            }
