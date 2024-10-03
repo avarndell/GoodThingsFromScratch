@@ -3,7 +3,7 @@
 # General Site Settings
 title: Good Things from Scratch
 logo: "/images/logo3.svg" # You can add own logo. For example '/images/logo.png'.
-description: Homemade in Every Dish
+description: Homemade Happiness in Every Dish
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -23,9 +23,10 @@ author-social:
 
 #-------------------------------
 # Hero Settings
+hero:
   hero__image: "/images/01.jpg"
-  hero__title: Welcome to Good Things from Scratch
-  hero__description: Homemade Happiness in Every Dish
+  hero__title: "Welcome to Good Things from Scratch"
+  hero__description: "Homemade Happiness in Every Dish"
 
 #-------------------------------
 # Footer section
