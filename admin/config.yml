@@ -18,17 +18,12 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "string", required: false }
       - {
-          label: "Categories",
-          name: "categories",
+          label: "PermalLink",
+          name: "permalink",
           widget: "string",
           required: false,
-        }
-      - {
-          label: "Publish Date",
-          name: "date",
-          widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
         }
   - name: "pages"
     label: "Pages"
@@ -53,3 +48,27 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Contact Page"
+        name: "contact"
+        file: "Contact.html"
+        fields:
+          - {
+              label: "Title",
+              name: "title",
+              widget: "hidden",
+              default: "about",
+            }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "about",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - {
+              label: "PermalLink",
+              name: "permalink",
+              widget: "string",
+              required: false,
+            }
