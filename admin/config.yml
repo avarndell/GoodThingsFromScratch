@@ -41,11 +41,12 @@ collections: # A list of collections the CMS should be able to edit
               default: "page",
             }
           - {
-              label: "Title",
-              name: "title",
+              label: "Perma Link",
+              name: "permalink",
               widget: "hidden",
-              default: "about",
+              default: "page",
             }
+          - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image", required: false }
       - label: "Contact Page"
@@ -58,11 +59,12 @@ collections: # A list of collections the CMS should be able to edit
               widget: "hidden",
               default: "page",
             }
+          - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - {
-              label: "Title",
-              name: "title",
+              label: "Perma Link",
+              name: "permalink",
               widget: "hidden",
-              default: "about",
+              default: "page",
             }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image", required: false }
@@ -77,10 +79,11 @@ collections: # A list of collections the CMS should be able to edit
               default: "page",
             }
           - {
-              label: "Title",
-              name: "title",
+              label: "Perma Link",
+              name: "permalink",
               widget: "hidden",
-              default: "about",
+              default: "page",
             }
+          - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image", required: false }
