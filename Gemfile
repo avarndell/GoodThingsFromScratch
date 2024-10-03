@@ -6,7 +6,7 @@ gem 'jekyll-tagging'
 gem "jekyll-sitemap"
 gem "csv"
 gem 'base64'
-gem'bigdecimal'
+gem 'bigdecimal'
 
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
