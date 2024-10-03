@@ -60,27 +60,27 @@ collections: # A list of collections the CMS should be able to edit
               default: "about",
             }
           - { label: "Image", name: "image", widget: "string" }
-      - label: "Contact Page"
-        name: "contact"
-        file: "contact.hmtl"
-        fields:
-          - {
-              label: "Title",
-              name: "title",
-              widget: "hidden",
-              default: "contact",
-            }
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "contact",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - {
-              label: "permalink",
-              name: "permalink",
-              widget: "hidden",
-              default: "about",
-            }
-          - { label: "Image", name: "image", widget: "string" }
+      # - label: "Contact Page"
+      #   name: "contact"
+      #   file: "contact.hmtl"
+      #   fields:
+      #     - {
+      #         label: "Title",
+      #         name: "title",
+      #         widget: "hidden",
+      #         default: "contact",
+      #       }
+      #     - {
+      #         label: "Layout",
+      #         name: "layout",
+      #         widget: "hidden",
+      #         default: "contact",
+      #       }
+      #     - { label: "Body", name: "body", widget: "markdown" }
+      #     - {
+      #         label: "permalink",
+      #         name: "permalink",
+      #         widget: "hidden",
+      #         default: "about",
+      #       }
+      #     - { label: "Image", name: "image", widget: "string" }
