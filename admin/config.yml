@@ -28,6 +28,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Pages"
     editor:
       preview: false
+    folder: "_pages"
     files:
       - label: "About Page"
         name: "about"
