@@ -16,12 +16,19 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "strjng" }
+      - { label: "Date", name: "date", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "string" }
       - {
           label: "Categories",
           name: "categories",
           widget: "string",
           required: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
         }
   - name: "pages"
     label: "Pages"
@@ -46,18 +53,34 @@ collections: # A list of collections the CMS should be able to edit
               default: "about",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "config"
-    label: "Config"
-    editor:
-      preview: false
-    files:
-      - label: "Navigation"
-        name: "navigation"
-        file: "_data/navigation.yml"
+          - {
+              label: "permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "about",
+            }
+          - { label: "Image", name: "image", widget: "string" }
+      - label: "Contact Page"
+        name: "contact"
+        file: "contact.hmtl"
         fields:
-          - label: "Navigation Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Link, name: link, widget: string }
+          - {
+              label: "Title",
+              name: "title",
+              widget: "hidden",
+              default: "contact",
+            }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "contact",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "about",
+            }
+          - { label: "Image", name: "image", widget: "string" }
