@@ -24,12 +24,6 @@ collections: # A list of collections the CMS should be able to edit
         }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Tags", name: "tags", widget: "string", required: false }
-      - {
-          label: "PermalLink",
-          name: "permalink",
-          widget: "string",
-          required: false,
-        }
   - name: "pages"
     label: "Pages"
     editor:
@@ -71,14 +65,8 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image", required: false }
-          - {
-              label: "PermalLink",
-              name: "permalink",
-              widget: "string",
-              required: false,
-            }
       - label: "Inspiration Page"
-        name: "infirpation"
+        name: "inspiration"
         file: "inspiration.md"
         fields:
           - {
@@ -95,9 +83,3 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image", required: false }
-          - {
-              label: "PermalLink",
-              name: "permalink",
-              widget: "string",
-              required: false,
-            }
