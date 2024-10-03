@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: avarndell/mangila # Path to your Github repository
+  repo: avarndell/goodthingsfromscratch # Path to your Github repository
   branch: master # Branch to update (master by default)
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
@@ -16,15 +16,23 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "strjng" }
+      - { label: "Date", name: "date", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image", required: false }
       - {
           label: "Categories",
           name: "categories",
           widget: "string",
           required: false,
         }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
   - name: "pages"
     label: "Pages"
+    folder: "_pages"
     editor:
       preview: false
     files:
@@ -45,36 +53,10 @@ collections: # A list of collections the CMS should be able to edit
               default: "about",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Contact Page"
-        name: "contact"
-        file: "contact.html"
-        fields:
           - {
-              label: "Title",
-              name: "title",
+              label: "permalink",
+              name: "permalink",
               widget: "hidden",
-              default: "contact",
+              default: "about",
             }
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "contact",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Title", name: "title", widget: "string" }
-  - name: "config"
-    label: "Config"
-    editor:
-      preview: false
-    files:
-      - label: "Navigation"
-        name: "navigation"
-        file: "_data/navigation.yml"
-        fields:
-          - label: "Navigation Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Link, name: link, widget: string }
+          - { label: "Image", name: "image", widget: "image", required: false }

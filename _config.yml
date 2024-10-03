@@ -2,16 +2,16 @@
 #-------------------------------
 # General Site Settings
 title: Good Things from Scratch
-logo: "/images/logo.svg" # You can add own logo. For example '/images/logo.png'.
-description: Minimalistic and Elegant Theme
+logo: "/images/logo3.svg" # You can add own logo. For example '/images/logo.png'.
+description: Homemade in Every Dish
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # Author Settings
 author:
-  name: Karen Millen
-  bio: Hi, my name is Karen Millen. Tellus vel sodales condimentum, urna ex tincidunt nisl, luctus gravida nunc nisi at risus. Nam eget bibendum odio. Nam dignissim odio quis ipsum tristique, at luctus ex volutpat. Maecenas ullamcorper imperdiet.
+  name: Meredith Blair Bearov
+  bio: Hi, my name is Meredith Blair Bearov. Tellus vel sodales condimentum, urna ex tincidunt nisl, luctus gravida nunc nisi at risus. Nam eget bibendum odio. Nam dignissim odio quis ipsum tristique, at luctus ex volutpat. Maecenas ullamcorper imperdiet.
   image: "/images/01.jpg"
   avatar: "/images/15.jpg"
 
@@ -23,10 +23,9 @@ author-social:
 
 #-------------------------------
 # Hero Settings
-hero:
   hero__image: "/images/01.jpg"
   hero__title: Welcome to Good Things from Scratch
-  hero__description: Catering with food made from scratch.
+  hero__description: Homemade Happiness in Every Dish
 
 #-------------------------------
 # Footer section
@@ -50,8 +49,8 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 
 #-------------------------------
 # Newsletter
-mailchimp:
-  mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+# mailchimp:
+#   mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # NOTE
 # If you don't want to use the subscribe section, just remove or comment out these lines.
