@@ -34,16 +34,15 @@ collections: # A list of collections the CMS should be able to edit
         name: "about"
         file: "about.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-          - {
-              label: "Title",
-              name: "title",
-              widget: "hidden",
-              default: "about",
-            }
           - {
               label: "Layout",
               name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - {
+              label: "Title",
+              name: "title",
               widget: "hidden",
               default: "about",
             }
@@ -53,16 +52,15 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         file: "Contact.html"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-          - {
-              label: "Title",
-              name: "title",
-              widget: "hidden",
-              default: "about",
-            }
           - {
               label: "Layout",
               name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - {
+              label: "Title",
+              name: "title",
               widget: "hidden",
               default: "about",
             }
@@ -72,16 +70,15 @@ collections: # A list of collections the CMS should be able to edit
         name: "inspiration"
         file: "inspiration.md"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-          - {
-              label: "Title",
-              name: "title",
-              widget: "hidden",
-              default: "about",
-            }
           - {
               label: "Layout",
               name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - {
+              label: "Title",
+              name: "title",
               widget: "hidden",
               default: "about",
             }
