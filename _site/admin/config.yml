@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: avarndell/goodthingsfromscratch # Path to your Github repository
-  branch: master # Branch to update (master by default)
+  branch: main # Branch to update (master by default)
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
@@ -30,9 +30,27 @@ collections: # A list of collections the CMS should be able to edit
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
         }
+  - name: "authors"
+    label: "Authors"
+    folder: "/"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
+      - { label: "Short Name", name: "name", widget: "string" }
+      - { label: "Display Name", name: "display_name", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "Image", name: "image", widget: "image", required: false }
   - name: "pages"
     label: "Pages"
-    folder: "_pages"
     editor:
       preview: false
     files:
@@ -53,10 +71,4 @@ collections: # A list of collections the CMS should be able to edit
               default: "about",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-          - {
-              label: "permalink",
-              name: "permalink",
-              widget: "hidden",
-              default: "about",
-            }
           - { label: "Image", name: "image", widget: "image", required: false }
