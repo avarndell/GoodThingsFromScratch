@@ -25,6 +25,7 @@ collections: # A list of collections the CMS should be able to edit
         }
   - name: "pages"
     label: "Pages"
+    folder: "_pages"
     editor:
       preview: false
     files:
@@ -45,24 +46,6 @@ collections: # A list of collections the CMS should be able to edit
               default: "about",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Contact Page"
-        name: "contact"
-        file: "contact.html"
-        fields:
-          - {
-              label: "Title",
-              name: "title",
-              widget: "hidden",
-              default: "contact",
-            }
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "contact",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Title", name: "title", widget: "string" }
   - name: "config"
     label: "Config"
     editor:

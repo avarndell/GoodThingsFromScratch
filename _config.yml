@@ -1,57 +1,52 @@
+---
 #-------------------------------
 # General Site Settings
-title: Mangila
-logo: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
+title: Good Things from Scratch
+logo: "/images/logo.svg" # You can add own logo. For example '/images/logo.png'.
 description: Minimalistic and Elegant Theme
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 
 #-------------------------------
 # Author Settings
 author:
   name: Karen Millen
   bio: Hi, my name is Karen Millen. Tellus vel sodales condimentum, urna ex tincidunt nisl, luctus gravida nunc nisi at risus. Nam eget bibendum odio. Nam dignissim odio quis ipsum tristique, at luctus ex volutpat. Maecenas ullamcorper imperdiet.
-  image: '/images/01.jpg'
-  avatar: '/images/15.jpg'
+  image: "/images/01.jpg"
+  avatar: "/images/15.jpg"
 
 # Example of adding a new link to the section author - {icon: "ion-logo-github", link: "https://github.com"}
 author-social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-
+  - { icon: "ion-logo-twitter", link: "https://twitter.com" }
+  - { icon: "ion-logo-facebook", link: "https://facebook.com" }
+  - { icon: "ion-logo-pinterest", link: "https://pinterest.com" }
 
 #-------------------------------
 # Hero Settings
 hero:
-  hero__image: '/images/01.jpg'
-  hero__title: Welcome to Good Things from Scratch  
-  hero__description: Catering food from scratch.
-
+  hero__image: "/images/01.jpg"
+  hero__title: Welcome to Good Things from Scratch
+  hero__description: Catering with food made from scratch.
 
 #-------------------------------
 # Footer section
 # Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-github", link: "https://github.com"}
-
+  - { icon: "ion-logo-twitter", link: "https://twitter.com" }
+  - { icon: "ion-logo-facebook", link: "https://facebook.com" }
+  - { icon: "ion-logo-dribbble", link: "https://dribbble.com" }
+  - { icon: "ion-logo-instagram", link: "https://instagram.com" }
+  - { icon: "ion-logo-pinterest", link: "https://pinterest.com" }
+  - { icon: "ion-logo-github", link: "https://github.com" }
 
 #-------------------------------
 # Comment Section (Disqus)
 disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
 
-
 #-------------------------------
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
-
 
 #-------------------------------
 # Newsletter
@@ -61,7 +56,6 @@ mailchimp:
 # NOTE
 # If you don't want to use the subscribe section, just remove or comment out these lines.
 
-
 #-------------------------------
 # Contant form Settings
 contact:
@@ -70,7 +64,6 @@ contact:
 
 # NOTE
 # Mangila comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
-
 
 #-------------------------------
 # Build settings
@@ -87,7 +80,7 @@ paginate_path: "/page/:num"
 # Pages Path
 defaults:
   - scope:
-      path: '_pages'
+      path: "_pages"
     values:
       permalink: /:basename:output_ext
 
@@ -95,9 +88,9 @@ include:
   - _pages
 
 # Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
 
 sass:
   sass_dir: _sass
