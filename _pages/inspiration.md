@@ -6,11 +6,11 @@ image: /images/25.jpg
 ---
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/04.jpg">
-    <img src="/images/06.jpg">
-    <img src="/images/05.jpg">
-    <img src="/images/07.jpg">
-    <img src="/images/08.jpg">
-    <img src="/images/09.jpg">
+    <img src="/images/food1.jpg">
+    <img src="/images/food2.jpg">
+    <img src="/images/food3.jpg">
+    <img src="/images/food4.jpg">
+    <img src="/images/food5.jpg">
+    <img src="/images/food6.jpg">
   </div>
 </div>
