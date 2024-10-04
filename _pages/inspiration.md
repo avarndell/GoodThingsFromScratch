@@ -4,5 +4,5 @@ permalink: /Inspiration/
 title: Inspiration
 image: /images/uploads/food1.jpg
 ---
-![Post image](/images/food1.jog){: .gallery }
+![Post image](/images/food1.jpg){: .gallery }
 
