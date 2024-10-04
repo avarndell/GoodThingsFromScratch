@@ -6,10 +6,8 @@ galleries:
   - title: Link to image gallery
     image: /uploads/album/2.jpg
     url: /without-plugin/image-gallery
-layout: page
+layout: gallery
 permalink: /Inspiration/
 title: Inspiration
 image: /images/25.jpg
 ---
-{% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
-
