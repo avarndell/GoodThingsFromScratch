@@ -48,25 +48,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image", required: false }
-      - label: "Contact Page"
-        name: "contact"
-        file: "_pages/Contact.html"
-        fields:
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "page",
-            }
-          - { label: "Title", name: "title", widget: "hidden", default: "page" }
-          - {
-              label: "Perma Link",
-              name: "permalink",
-              widget: "hidden",
-              default: "page",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Image", name: "image", widget: "image", required: false }
       - label: "Inspiration Page"
         name: "inspiration"
         file: "_pages/inspiration.md"
