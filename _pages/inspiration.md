@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: page
 permalink: /Inspiration/
 title: Inspiration
 image: /images/25.jpg
