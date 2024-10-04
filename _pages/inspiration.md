@@ -2,7 +2,7 @@
 layout: page
 permalink: /Inspiration/
 title: Inspiration
-image: /images/25.jpg
+image: /images/uploads/food1.jpg
 ---
 <div class="gallery-box">
   <div class="gallery">
