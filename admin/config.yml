@@ -76,4 +76,4 @@ collections: # A list of collections the CMS should be able to edit
               name: "image",
               widget: "image",
               required: true,
-            }
+            } 
