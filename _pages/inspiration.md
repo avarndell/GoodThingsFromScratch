@@ -15,3 +15,5 @@ image: /images/uploads/food1.jpg
     <img src="/images/food6.jpg" >
   </div>
 </div>
+
+![A descriptive alt text](src="/images/food1.jpg")
