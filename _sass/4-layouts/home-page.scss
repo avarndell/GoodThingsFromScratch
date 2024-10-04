@@ -66,13 +66,13 @@
 
   .article-tags__box {
     display: flex;
-    
+
     &::before {
-      content: "|";
+      // content: "|";
       display: block;
-      padding: 0 .35rem;
+      padding: 0 0.35rem;
     }
-    
+
     .article__tag {
       color: inherit;
     }
@@ -94,9 +94,7 @@
       }
     }
   }
-
 }
-
 
 .article__bottom {
   display: flex;
@@ -116,7 +114,7 @@
   &::after {
     content: "|";
     display: block;
-    padding: 0 .35rem;
+    padding: 0 0.35rem;
   }
 
   .article__author-image {
