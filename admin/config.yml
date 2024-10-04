@@ -28,11 +28,11 @@ collections: # A list of collections the CMS should be able to edit
     label: "Pages"
     editor:
       preview: false
-    folder: "_pages"
     files:
       - label: "About Page"
         name: "about"
         file: "about.md"
+        folder: "_pages"
         fields:
           - {
               label: "Layout",
@@ -52,6 +52,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Contact Page"
         name: "contact"
         file: "Contact.html"
+        folder: "_pages"
         fields:
           - {
               label: "Layout",
@@ -71,6 +72,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Inspiration Page"
         name: "inspiration"
         file: "inspiration.md"
+        folder: "_pages"
         fields:
           - {
               label: "Layout",
