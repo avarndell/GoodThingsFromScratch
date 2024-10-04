@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2018/05/29/remember-that-happiness-is-a-way-of-travel-not-a-destination/</loc>
-<lastmod>2018-05-29T11:05:55-04:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/2018/05/30/it-is-never-too-late-to-be-what-you-might-have-been/</loc>
 <lastmod>2018-05-30T11:05:55-04:00</lastmod>
 </url>
@@ -49,6 +45,14 @@
 <lastmod>2018-11-13T07:01:35-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2024/10/02/title/</loc>
+<lastmod>2024-10-02T23:56:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2024/10/03/remember-that-happiness-is-a-way-of-travel-not-a-destination/</loc>
+<lastmod>2024-10-03T00:13:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -64,9 +68,6 @@
 <loc>http://localhost:4000/styleguide/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/jekyll/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/tag/life/</loc>
 </url>
 <url>
@@ -74,6 +75,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/travels/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/jekyll/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page/2/</loc>
