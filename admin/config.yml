@@ -66,14 +66,9 @@ collections: # A list of collections the CMS should be able to edit
               label: "Layout",
               name: "layout",
               widget: "hidden",
-              default: "page",
+              default: "post",
             }
-          - {
-              label: "Perma Link",
-              name: "permalink",
-              widget: "hidden",
-              default: "page",
-            }
+          - { label: "Perma Link", name: "permalink", widget: "hidden" }
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
@@ -82,7 +77,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: "image",
               required: true,
             }
-      - label: "Sytle Page"
+      - label: "Style Page"
         name: "styleguide"
         file: "_pages/styleguide.md"
         fields:
