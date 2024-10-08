@@ -27,8 +27,6 @@ collections: # A list of collections the CMS should be able to edit
         }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Tags", name: "tags", widget: "string", required: false }
-
-  - divider: true
   - name: "pages"
     label: "Pages"
     editor:
@@ -63,6 +61,30 @@ collections: # A list of collections the CMS should be able to edit
         name: "inspiration"
         file: "_pages/inspiration.md"
         icon: gallery_thumbnail
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - {
+              label: "Perma Link",
+              name: "permalink",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Title", name: "title", widget: "hidden", default: "page" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Image Header",
+              name: "image",
+              widget: "image",
+              required: true,
+            }
+      - label: "Sytle Page"
+        name: "styleguide"
+        file: "_pages/styleguide.md"
         fields:
           - {
               label: "Layout",
