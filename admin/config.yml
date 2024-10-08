@@ -3,7 +3,8 @@ backend:
   repo: avarndell/goodthingsfromscratch # Path to your Github repository
   branch: main # Branch to update (master by default)
 
-media_folder: "images/uploads" # Folder where user uploaded files should go
+media_folder: "images/uploads" # Folder where user uploaded files should go  
+public_folder: /images/uploads
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -12,8 +13,6 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    media_folder: /images/uploads
-    public_folder: /images/uploads
     icon: post_add
     fields: # The fields each document in this collection have
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
@@ -32,8 +31,6 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: true
     create: true
-    media_folder: /images/uploads
-    public_folder: /images/uploads
     files:
       - label: "About Page"
         name: "about"
