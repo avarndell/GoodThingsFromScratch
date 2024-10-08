@@ -261,29 +261,6 @@ table td {
   }
 }
 
-/* customized gallery*/
-.gallery2 {
-  display: grid;
-  grid-template-columns: repeat(3, auto); /* 3 columns */
-  justify-content: center;
-  align-content: center;
-  gap: 10px; /* Space between the items */
-}
-
-.gallery2 img {
-  width: 100%; /* Make images responsive */
-  height: auto;
-  border-radius: 5px; /* Optional: rounded corners */
-}
-
-.gallery2 p,
-.gallery2 strong {
-  text-align: center; /* Center the captions */
-  margin-top: 10px;
-  font-size: 16px; /* Font size for the captions */
-  color: $dark; /* Dark color for better readability */
-}
-
 .button {
   position: relative;
   display: inline-block;
@@ -323,4 +300,19 @@ table td {
 
 .lazy.loaded {
   opacity: 1;
+}
+
+/*Cards */
+
+/* On mouse-over, add a deeper shadow */
+/* Add some padding inside the card container */
+.card {
+  box-shadow: 0 4px 8px 0 $brand-color;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 0 8px 16px 0 $brand-color;
+  }
+}
+.container-card {
+  padding: 2px 16px;
 }
