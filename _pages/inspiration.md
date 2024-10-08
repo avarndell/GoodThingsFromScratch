@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: /Inspiration/
 title: Inspiration
 image: /images/uploads/food1.jpg
