@@ -310,7 +310,7 @@ table td {
 /* Responsive columns - one column layout (vertical) on small screens */
 .card-column {
   float: left;
-  width: 40%;
+  width: 25%;
   padding: 0 10px 10px 0px;
 }
 .card-row {
@@ -327,6 +327,13 @@ table td {
   text-align: center;
   background-color: $background-color;
 }
+@media screen and (max-width: 600px) {
+  .card-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
 @media screen and (max-width: 600px) {
   .card-column {
     width: 100%;

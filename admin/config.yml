@@ -32,6 +32,8 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: true
     create: true
+    media_folder: /images/uploads
+    public_folder: /images/uploads
     files:
       - label: "About Page"
         name: "about"
@@ -66,7 +68,7 @@ collections: # A list of collections the CMS should be able to edit
               label: "Layout",
               name: "layout",
               widget: "hidden",
-              default: "post",
+              default: "page",
             }
           - { label: "Perma Link", name: "permalink", widget: "hidden" }
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
