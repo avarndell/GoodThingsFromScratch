@@ -5,11 +5,30 @@ title: Inspiration
 image: /images/uploads/food1.jpg
 ---
 
-<div class="card">
-  <img src="/images/04.jpg" alt="Avatar" style="width:100%">
-  <div class="container-card">
-    <h4><b>John Doe</b></h4>
-    <p>Architect & Engineer</p>
+<div class="card-row">
+  <div class="card-column">
+    <div class="card">
+    <img src="/images/04.jpg">
+    <p>Images caption</p>
+    </div>
+  </div>
+  <div class="card-column">
+    <div class="card">
+      <img src="/images/04.jpg">
+    <p>Images caption</p>
+    </div>
+  </div>
+  <div class="card-column">
+    <div class="card">
+      <img src="/images/04.jpg">
+    <p>Images caption</p>
+    </div>
+  </div>
+  <div class="card-column">
+    <div class="card">
+    <img src="/images/04.jpg">
+    <p>Images caption</p>
+    </div>
   </div>
 </div>
 
