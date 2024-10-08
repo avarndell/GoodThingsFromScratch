@@ -12,6 +12,9 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    media_folder: /images/uploads
+    public_folder: /images/uploads
+    icon: post_add
     fields: # The fields each document in this collection have
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
@@ -24,6 +27,7 @@ collections: # A list of collections the CMS should be able to edit
         }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Tags", name: "tags", widget: "string", required: false }
+
   - divider: true
   - name: "pages"
     label: "Pages"
@@ -58,6 +62,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Inspiration Page"
         name: "inspiration"
         file: "_pages/inspiration.md"
+        icon: gallery_thumbnail
         fields:
           - {
               label: "Layout",
