@@ -4,7 +4,9 @@ permalink: /Inspiration/
 title: Inspiration
 image: /images/uploads/food1.jpg
 ---
+```
 ## Images
+
 <div class="gallery-box">
   <div class="gallery">
     <img src="/images/04.jpg">
@@ -16,3 +18,4 @@ image: /images/uploads/food1.jpg
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
+```
