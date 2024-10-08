@@ -24,7 +24,7 @@ author-social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__image: "/images/uploads/food3.jpg
+  hero__image: "/images/uploads/food3.jpg"
   hero__title: "Welcome to Good Things from Scratch"
   hero__description: "Homemade Happiness in Every Dish"
 
