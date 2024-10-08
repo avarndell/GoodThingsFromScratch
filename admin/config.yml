@@ -27,7 +27,8 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     editor:
-      preview: false
+      preview: true
+    create: true
     files:
       - label: "About Page"
         name: "about"
@@ -76,4 +77,4 @@ collections: # A list of collections the CMS should be able to edit
               name: "image",
               widget: "image",
               required: true,
-            } 
+            }
