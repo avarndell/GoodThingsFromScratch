@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do what you can, with what you have, where you are
-date: 2018-11-12 03:01:00
+date: 2024-10-08 04:47:00
 image: /images/uploads/food4.jpg
 tags: Travels
 ---
