@@ -17,8 +17,6 @@ image: /images/uploads/food1.jpg
  
 </div>
 
-
-
 {: .gallery2 }
 ![fead](/images/uploads/food1.jpg)
 ![fead](/images/uploads/food2.jpg)
