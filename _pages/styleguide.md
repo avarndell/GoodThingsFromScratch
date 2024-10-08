@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Style Guide
 permalink: /styleguide/
-image: '/images/26.jpg'
+title: Style Guide
+image: /images/26.jpg
 ---
-
 A paragraph looks like this — In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur.
 
 ***
@@ -12,10 +11,15 @@ A paragraph looks like this — In qua quid est boni praeter summam voluptatem, 
 ## Headings by default:
 
 # H1 For example
+
 ## H2 For example
+
 ### H3 For example
+
 #### H4 For example
+
 ##### H5 For example
+
 ###### H6 For example
 
 ***
@@ -34,11 +38,11 @@ A paragraph looks like this — In qua quid est boni praeter summam voluptatem, 
 
 #### Unordered list example:
 
-* Bitters semiotics vice thundercats synth.
-* Literally cred narwhal bitters wayfarers.
-* Kale chips chartreuse paleo tbh street art marfa.
-* Mlkshk polaroid sriracha brooklyn.
-* Pug you probably haven't heard of them air plant man bun.
+- Bitters semiotics vice thundercats synth.
+- Literally cred narwhal bitters wayfarers.
+- Kale chips chartreuse paleo tbh street art marfa.
+- Mlkshk polaroid sriracha brooklyn.
+- Pug you probably haven't heard of them air plant man bun.
 
 ***
 
@@ -63,18 +67,17 @@ A paragraph looks like this — In qua quid est boni praeter summam voluptatem, 
 #### A quote looks like this:
 
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
+> >
 > <cite>George Bernard Shaw</cite>
 
 {% highlight html %}
+
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
+> >
 > <cite>George Bernard Shaw</cite>
-{% endhighlight %}
+> {% endhighlight %}
 
 ***
-
-
 
 ## Syntax Highlighter
 
