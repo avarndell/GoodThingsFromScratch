@@ -12,6 +12,7 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    icon: post_add
     fields: # The fields each document in this collection have
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
@@ -27,7 +28,8 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     editor:
-      preview: false
+      preview: true
+    create: true
     files:
       - label: "About Page"
         name: "about"
@@ -56,6 +58,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Inspiration Page"
         name: "inspiration"
         file: "_pages/inspiration.md"
+        icon: gallery_thumbnail
         fields:
           - {
               label: "Layout",
@@ -63,12 +66,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: "hidden",
               default: "page",
             }
-          - {
-              label: "Perma Link",
-              name: "permalink",
-              widget: "hidden",
-              default: "page",
-            }
+          - { label: "Perma Link", name: "permalink", widget: "hidden" }
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
@@ -76,4 +74,23 @@ collections: # A list of collections the CMS should be able to edit
               name: "image",
               widget: "image",
               required: true,
-            } 
+            }
+      - label: "Style Page"
+        name: "styleguide"
+        file: "_pages/styleguide.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Perma Link", name: "permalink", widget: "hidden" }
+          - { label: "Title", name: "title", widget: "hidden", default: "page" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Image Header",
+              name: "image",
+              widget: "image",
+              required: true,
+            }

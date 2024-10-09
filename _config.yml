@@ -12,7 +12,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Meredith Blair Bearov
   bio: Hi, my name is Meredith Blair Bearov. Tellus vel sodales condimentum, urna ex tincidunt nisl, luctus gravida nunc nisi at risus. Nam eget bibendum odio. Nam dignissim odio quis ipsum tristique, at luctus ex volutpat. Maecenas ullamcorper imperdiet.
-  image: "/images/food1.jpg"
+  image: "/images/uploads/food1.jpg"
   avatar: "/images/15.jpg"
 
 # Example of adding a new link to the section author - {icon: "ion-logo-github", link: "https://github.com"}
