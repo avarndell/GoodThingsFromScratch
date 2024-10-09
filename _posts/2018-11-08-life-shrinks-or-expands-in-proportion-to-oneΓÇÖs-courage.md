@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Life shrinks or expands in proportion to one’s courage
-date: 2018-11-08 03:01:00
+date: 2024-10-09 10:12:00
 image: /food5.jpg
 tags: Work
 ---
